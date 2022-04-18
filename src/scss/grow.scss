@@ -1,0 +1,66 @@
+@import 'variables';
+
+#grow {
+  background: $light-black;
+  padding: 120px 0;
+  position: relative;
+  overflow: hidden;
+
+  h2 {
+    color: #fff;
+    text-align: center;
+  }
+
+  p {
+    color: #fff;
+    max-width: 560px;
+    text-align: center;
+    margin: 20px auto 40px;
+  }
+}
+
+.yellow {
+  color: $yellow;
+}
+
+.arrow_green {
+  position: absolute;
+  left: 0;
+  bottom: 15%;
+}
+
+.tress_white {
+  position: absolute;
+  right: 0;
+  top: 60px;
+}
+
+.tress_white_left {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.tress_white_right {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+@media (min-width: 991px) {
+  .none_bg_desk {
+    display: none;
+  }
+}
+
+@media (max-width: 991px) {
+  .none_bg_mob {
+    display: none;
+  }
+}
+
+@media (max-width: 767px) {
+  #grow {
+    padding: 50px 0 80px;
+  }
+}

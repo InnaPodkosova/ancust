@@ -1,0 +1,33 @@
+@import 'variables';
+
+#features {
+   padding: 75px 0 0;
+}
+
+.audiences_txt {
+  color: $green;
+}
+
+.about_us {
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  max-width: 600px;
+  margin: 20px auto 40px;
+}
+
+
+@media (max-width: 767px) {
+  #features {
+    padding: 40px 0 0;
+  }
+  .about_us {
+    max-width: 60%;
+  }
+}
+
+@media (max-width: 480px) {
+  .about_us {
+    max-width: 100%;
+  }
+}

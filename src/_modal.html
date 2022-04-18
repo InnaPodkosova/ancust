@@ -1,0 +1,104 @@
+<div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel"
+     tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content">
+            <div class="modal-body">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                <div class="left_modal">
+                    <div id="contentLogin" class="content_modal">
+                        <div class="content_login">
+                            <div>
+                                <h3 class="modal-title">Log in</h3>
+                                <p class="welcome_back">Welcome back! Please enter your details.</p>
+                                <form>
+                                    <div class="mb-3">
+                                        <label for="exampleInputEmailLogin" class="form-label">Email address</label>
+                                        <input type="email" class="form-control is-invalid" id="exampleInputEmailLogin"
+                                               placeholder="Enter your email here">
+                                    </div>
+                                    <div>
+                                        <label for="exampleInputPasswordLogin" class="form-label">Password</label>
+                                        <input type="password" class="form-control" id="exampleInputPasswordLogin"
+                                               placeholder="Enter your password here">
+                                    </div>
+
+
+                                    <div class="password_remember">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" value=""
+                                                   id="flexCheckIndeterminate">
+                                            <label class="form-check-label" for="flexCheckIndeterminate">
+                                                Remember me
+                                            </label>
+                                        </div>
+                                        <button class="btn_forgot entrance">Forgot Password?</button>
+                                    </div>
+
+                                    <button type="submit" class="btn_get_started btn_black_entrance">
+                                        Login in
+                                    </button>
+                                </form>
+                            </div>
+                            <p>Already have an account?
+                                <span onclick="contentModal('SignUp')" class="entrance">Sign up</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div id="contentSignUp" class="content_modal">
+                        <h3 class="modal-title">Sign up</h3>
+
+                        <form>
+                            <div class="mb-3">
+                                <label for="exampleInputFullName" class="form-label">Full name</label>
+                                <input type="email" class="form-control is-invalid" id="exampleInputFullName"
+                                       placeholder="Enter your name here">
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleInputEmail" class="form-label">Email address</label>
+                                <input type="email" class="form-control is-invalid" id="exampleInputEmail"
+                                       placeholder="Enter your email here">
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleInputPassword" class="form-label">Password</label>
+                                <input type="password" class="form-control" id="exampleInputPassword"
+                                       placeholder="Enter your password here">
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleInputConfirmPassword" class="form-label">Confirm Password</label>
+                                <input type="password" class="form-control" id="exampleInputConfirmPassword"
+                                       placeholder="Confirm your password here">
+                            </div>
+
+                            <div class="btn-entrance mr_sign_up">
+                                <button type="submit" class="btn_black_entrance">
+                                    Create Account
+                                </button>
+                                <div class="modal_social_wrap">
+                                    <p>or use</p>
+                                    <a href="#" class="social_entrance">
+                                        <img src="img/google.svg" alt="google Sign up">
+                                    </a>
+                                    <a href="#" class="social_entrance">
+                                        <img src="img/fb.svg" alt="fb Sign up">
+                                    </a>
+                                </div>
+                            </div>
+                        </form>
+                        <p>Already have an account?<span onclick="contentModal('Login')" class="entrance">Log in</span>
+                        </p>
+                    </div>
+                </div>
+                <div class="right_modal">
+                    <img src="img/white-spots.svg" class="white_spots" alt="white-spots">
+                    <div class="right_modal_content">
+                        <img src="img/search.svg" alt="search">
+                        <h4>Analyzing the mindset of your customers</h4>
+                        <p>Our platform provides the tools to answer your questions about consumer and help grow your
+                            business.</p>
+                    </div>
+                    <img src="img/yellow-lines.svg" class="yellow_lines_model" alt="yellow-lines">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
